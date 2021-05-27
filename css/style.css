@@ -1,0 +1,1495 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+strong {
+    display: block;
+}
+
+body {
+    line-height: 1;
+
+}
+
+ol,
+ul {}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: lato;
+}
+
+h3,
+strong,
+p,
+li {
+    font-family: raleway;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+video,
+img {
+    max-width: 100%;
+}
+
+main {
+    min-height: 80vh;
+    margin-top: 50px;
+}
+
+/* Header__________________________________________ */
+header {
+    color: black;
+    padding: 20px 40px;
+    align-items: baseline;
+    z-index: 1;
+    position: relative;
+    display: block;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+    text-decoration: none;
+    color: #34191D;
+}
+
+header ul {
+    display: inline;
+    float: right;
+}
+
+header img {
+    width: 60px;
+}
+
+/*Main_____________________ */
+/*Forside_____________ */
+#forside-video {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.forside-header img {
+    opacity: 0;
+}
+
+#forside-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+    display: block;
+}
+
+#forside-info {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding-bottom: 10px;
+    max-width: 1400px;
+    /*    background: rgba(0,0,0,0.2);*/
+    display: block;
+    overflow: hidden;
+}
+
+#forside-info h3 {
+    font-size: 2em;
+    color: black;
+}
+
+#forside-info img {
+    max-width: 100%;
+    width: 30%
+}
+
+#testheader {
+    z-index: 1;
+    font-weight: bold;
+}
+
+#testt {
+    display: block;
+    margin-top: 32vh;
+}
+
+#forside-billede {
+    background-image: url(../img/bob2.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 0;
+    padding: 25% 0;
+    color: white;
+    margin-top: -110px;
+}
+
+h1 {
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+
+#forside-billede h3 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#forside-billede a {
+    border: solid black 1px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 16px 40px;
+    display: inline;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.wrapper2 {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+#jump-button2 {
+    margin-left: 45%;
+    width: 5%;
+    margin-bottom: 20px;
+}
+
+#img-forside {
+    width: 40%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+#img-forside img {
+    width: 80%;
+}
+
+#tekst-forside h1 {
+    font-size: 2em;
+}
+
+#tekst-forside strong {
+    font: bold;
+}
+
+#tekst-forside p {
+    font-size: 1.15em;
+    line-height: 1.2em;
+}
+
+#tekst-forside {
+    width: 40%;
+    margin-right: 10%;
+    font-size: 1.1em;
+}
+
+.stot {
+    font-size: 2em;
+    margin: 75px 0 50px;
+    text-align: center;
+}
+
+.stot img {
+    max-width: 300px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.scrollable3 {
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    overflow-y: auto;
+}
+
+.scrollable3 div {
+    width: 600px;
+    min-width: 600px;
+    padding: 50px;
+    display: block;
+    background-color: #B2B293;
+    margin-right: 10px;
+    text-align: center;
+    font-size:1.2em;
+    line-height: 1.1em;
+}
+.anmeldelser p{
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+.scrollable2 {
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    overflow-y: auto;
+
+}
+
+.scrollable2 div {
+    background-image: url(../img/8b.yoga-og-natur.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    min-width: 300px;
+    padding: 200px 350px 350px 550px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+
+.scrollable2 h3 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.scrollable2 p {
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+/*
+.scrollable img {
+    margin-right: 2%;
+    display: block;
+    max-height: 350px;
+}
+.scrollable a {
+    text-align: center;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    padding: 75px 0 150px;
+    min-width: 300px;
+    margin-right: 1%;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-weight: bold;
+}
+*/
+
+
+/*----------------slide show anmeldelser------------------------*/
+/* karusel container */
+/*
+.slide-container {
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+*/
+
+#karusel-anmeldelser {
+    margin: 8% 0;
+}
+
+#forside h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*
+.slide-container p {
+    text-align: center;
+    margin: 1em;
+}
+
+ Gemmer resten af af billederne 
+.slider {
+    display: none;
+}
+*/
+
+/* Før og efter knap */
+.for,
+.efter {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.2s ease;
+    border-radius: 0 3px 3px 0;
+    display: block;
+}
+
+/* placering af næste knap */
+.efter {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Hover effekt til før og efter knap */
+.for:hover,
+.efter:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.5;
+
+}
+
+/* Se anmeldelser knap */
+.doto {
+    cursor: pointer;
+    width: 200px;
+    margin: 1em;
+    background-color: #7D7D61;
+    border: 2px solid #7D7D61;
+    display: inline-block;
+    color: white;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.doto:hover {
+    color: #7D7D61;
+    background-color: inherit;
+}
+
+.doto p {
+    margin: 3%;
+}
+
+/* Fade animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#karo {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    justify-content: center;
+}
+
+/*Underside_____________ */
+
+/*Hold-side/arrangementer_____________*/
+
+/*Modal*/
+/* The Modal (background) */
+/*
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 0.3s;
+}
+
+ Modal Content 
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    display: block;
+    background-color: white;
+}
+*/
+
+.modal h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.flex-modal {
+    display: flex;
+    line-height: 1.6em;
+    justify-content: space-between;
+}
+
+#modal-venstre strong {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+    display: block;
+}
+
+#modal-hojre p {
+    margin: 1.2em 0;
+}
+
+#modal-hojre,
+#modal-venstre {
+    width: 49%;
+    display: block;
+}
+
+#modal-hojre {
+    font-size: 1.3em;
+}
+
+#modal-hojre {}
+
+#modal-hojre h3 {
+    font-size: 1.8em;
+    display: block;
+}
+
+#modal-tid {
+    background-color: #7D7E5D;
+    color: white;
+    padding: 10px 20px 20px 20px;
+}
+
+#modal-img {
+    width: 100%;
+}
+
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #aaaaaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* hej */
+
+.holdet h1,
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.holdet {
+    margin: 0 0 125px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kort {
+    margin-top: 40px;
+    display: block;
+    position: relative;
+    width: 23%;
+    text-align: center;
+    padding: 8% 0 12%;
+    font-size: 1.8em;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s ease-out;
+}
+
+.info {
+    opacity: 1;
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.myBtn {
+    background-color: white;
+    color: #544241;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 1px 4px grey;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+
+.myBtn:hover {
+    background: rgba(0, 0, 0, 0);
+    color: inherit;
+    border: 1px solid white;
+}
+
+.info p,
+.info a {
+    opacity: 0;
+    font-size: 0.7em;
+    margin-top: 20px;
+}
+
+.kort:hover {
+    padding: 7% 0 13%;
+    transition: all 0.3s ease-in;
+}
+
+.kort:hover .lilla {
+    background-color: #BBA6A5;
+    transition: all 0.3s ease-in;
+}
+
+.kort:hover .lyserod {
+    background-color: #CBA7A5;
+    transition: all 0.3s ease-in;
+}
+
+.kort:hover .gron {
+    background-color: #B2B293;
+    transition: all 0.3s ease-in;
+}
+
+.kort:hover .green {
+    background-color: #7D7E5D;
+    transition: all 0.3s ease-in;
+}
+
+.kort:hover .info p {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+
+.kort:hover .info a {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+
+.info a {
+    background-color: white;
+    color: #544241;
+    border: solid #544241 1px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.kort:hover .info {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+
+.arrang-tekst {
+    width: 48%;
+    margin-top: 50px;
+    display: block;
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+.arrang-tekst p {
+    margin-bottom: 20px;
+    font-weight: 300
+}
+
+strong {
+    font-weight: bold;
+}
+
+.arrang-tekst h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fuldmane {
+    background-image: url(../img/fuldmane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hanklit {
+    background-image: url(../img/hanklit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.selvom {
+    background-image: url(../img/selvom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.naturretreat {
+    background-image: url(../img/naturretreat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stilleretreat {
+    background-image: url(../img/stilleretreat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.morgen {
+    background-image: url(../img/morgen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slowy {
+    background-image: url(../img/morgen-tagterrase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yiny {
+    background-image: url(../img/morgen-tagterrase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kunda {
+    background-image: url(../img/morgen-tagterrase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mande {
+    background-image: url(../img/morgen-tagterrase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*Modal - hold_________*/
+
+
+/*Klippekort______*/
+.klippekort-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.klippekort-section h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.klippekort-section h3 {
+    font-size: 1.1em;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.klippekort {
+    text-align: center;
+    display: block;
+    background-color: #B2B293;
+    width: 28%;
+    padding: 40px 0;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.klippekort img {
+    height: 150px;
+}
+
+.klippe-info {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-row-gap: 12px;
+    margin: 30px 40px 40px;
+    text-align: left;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+.klippekort strong {
+    font-size: 2em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.klippekort a {
+    background-color: #544241;
+    color: white;
+    padding: 10px 14px;
+    display: block;
+    width: 30%;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.medsmat {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/*Kalender_______________________*/
+#underside h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.collabs,
+.collabs2 {
+    cursor: pointer;
+    padding: 25px 25px;
+    width: 100%;
+    border: solid 1px black;
+    text-align: left;
+    font-size: 1.6em;
+    background-color: white;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+#retreat,
+#hold-info {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.active,
+.collabs:hover {
+    background: rgba(0, 0, 0, 0.05)
+}
+
+.collabs:after,
+.collabs2:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+
+/*Arrangementer____________*/
+.retreats {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin-bottom: 2em;
+    align-items: center;
+    background-color: #7D7D61;
+}
+
+.retreat-info {
+    width: 56%;
+    padding: 2%;
+    background-color: white;
+}
+
+.retreat-info h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #544241;
+    margin-bottom: 20px;
+}
+
+.retreat-info a {
+    padding: 1em 0;
+    display: inline-block;
+    border: 1px solid #544241;
+    margin-top: 20px;
+    text-align: center;
+    width: 20%;
+    transition-duration: 0.2s;
+}
+
+.s-link {
+    background-color: #544241;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    padding: 10px 14px;
+    box-shadow: 2px 2px 4px grey;
+    border: #544241 1px solid;
+}
+
+.s-link:hover {
+    background-color: white;
+    color: #544241;
+
+}
+
+.p-link {
+    background-color: white;
+    color: #544241;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 1px 4px grey;
+    padding: 10px 20px;
+    border: 1px solid #544241;
+}
+
+.p-link:hover {
+    background-color: #544241;
+    color: white;
+}
+
+.t {
+    width: 20%;
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.t p {
+    margin: 0 auto;
+}
+
+/*Hundeliste*/
+#js-test {}
+
+#js-knap {
+    display: block;
+
+}
+
+/*Retreat side________ */
+.retreat-side article {
+    margin-bottom: 75px;
+}
+
+.retreat-top h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.retreat-img img {
+    width: 80%;
+}
+
+.retreat-pris {
+    width: 30%;
+    margin-left: -10%;
+}
+
+.retreat-pris div {
+    display: block;
+    background-color: #7D7E5D;
+    padding: 50px 40px;
+    color: white;
+    font-size: 1.8em;
+    margin-top: 40%;
+    line-height: 1.5em;
+}
+
+.retreat-pris strong {
+    font-size: 1.3em;
+}
+
+.retreat-pris a {
+    float: right;
+    margin-top: 39%;
+    padding: 15px 45px;
+}
+
+.retreat-side h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+div.hvader-info {
+    display: block;
+    width: 48%;
+}
+
+.hvader-info img {
+    max-width: 100%;
+}
+
+.hvader-info h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0 5px;
+}
+
+.hvader-info h3:first-child {
+    margin-top: 0;
+}
+
+.hvader-info p {
+
+    margin-bottom: 15px;
+}
+
+.retreat-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.program-info {
+    width: 26%;
+    color: white;
+    display: block;
+    background-color: #7D7D61;
+    padding: 2%;
+    line-height: 1.6em;
+}
+
+.program-info h3 {
+    font-size: 1.4em;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+}
+
+.program-info strong {
+    font-size: 1.2em;
+}
+
+.program-info p {
+    margin: 2px 0 20px 20px;
+}
+
+#medbring {
+    padding: 1.5em;
+    line-height: 1.5em;
+    width: 70%;
+}
+
+#retreat-medbring {
+    display: flex;
+}
+
+#medbringbillede {
+    width: 30%;
+}
+
+#priser {
+    padding: 1.6em;
+    line-height: 1.5em;
+    width: 40%;
+    margin: 1em;
+}
+
+#priser li {
+    margin-left: 30px;
+}
+
+#tilkob {
+    margin-top: 30px;
+}
+
+#retreat-pris {
+    display: flex;
+}
+
+#prisbillede {
+    width: 50%;
+    margin-top: 30px;
+}
+
+#dotto {
+    text-align: center;
+}
+
+.scrollable {
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    overflow-y: auto;
+
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #544241;
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.scrollable img {
+    margin-right: 2%;
+    display: block;
+    max-height: 400px;
+}
+
+.scrollable a {
+    text-align: center;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    padding: 75px 0 150px;
+    min-width: 300px;
+    margin-right: 1%;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.s1 {
+    background-image: url(../img/scroll1.png);
+}
+
+.s2 {
+    background-image: url(../img/scoll2.png);
+}
+
+.s3 {
+    background-image: url(../img/scroll3.png);
+}
+
+
+
+/*Hold under kalender_____________________________ */
+
+#hold-info {
+    text-align: center;
+}
+
+#hold-info h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 2% 24.5% 24.5% 24.5% 24.5%;
+    margin: 0 5%;
+}
+
+.grid {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 12%;
+    font-size: 1.1em;
+    font-weight: bolder;
+    margin: 5%;
+}
+
+.grid p {
+    padding-bottom: 10px;
+}
+
+#hold-info a {
+    font-size: 0.7em;
+    padding: 10px;
+    background-color: white;
+    border: black solid 1px;
+    display: block;
+    margin-top: 5px;
+    color: black;
+    transition-duration: 0.2s
+}
+
+#hold-info a:hover {
+    background-color: inherit;
+    color: white;
+    border: white 2px solid;
+    padding: 9px;
+}
+
+.ons1,
+.tir3,
+.tor3 {
+    background-color: #CBA7A5;
+}
+
+.tor1 {
+    background-color: #B8A7A5
+}
+
+.tir2,
+.ons3 {
+    background-color: #B2B293;
+}
+
+.ons4,
+.tor4 {
+    background-color: #7D7D61;
+}
+
+
+
+/*Om-side_______*/
+
+#om-top {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#video-div {
+    position: relative;
+    margin: 40px 0;
+}
+
+.om-video {
+    transition-duration: 1s;
+    position: relative;
+    z-index: 0;
+}
+
+.jump-button {
+    margin: 20px 0;
+}
+
+.video-play {
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 24.8% 0;
+    position: absolute;
+    text-align: center;
+    font-size: 5em;
+    background: rgba(255, 255, 255, 0.5);
+    transition: all ease-in-out 0.5s;
+    /*
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 5em;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    transition: all ease-in-out 0.3s;
+*/
+}
+
+#om-info h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 50px 0 20px;
+}
+
+.timeline {
+    background-image: url(../img/timeline.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+    color: black;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 0.8%;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.timeline h4 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.timeline-box {
+    padding: 10% 0;
+}
+
+.container {
+    width: 45%;
+    color: black;
+    line-height: 1.8em;
+    font-size: 1.1em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.container h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.container li {
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.container ul {
+    margin-bottom: 10px;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.rejsen {
+    display: block;
+    padding-bottom: 40px;
+}
+
+/*Footer*/
+
+#om div {
+    display: flex;
+}
+
+#om img {
+    padding: 0.8em;
+    max-width: 22px;
+}
+
+#om p {
+    padding: 0.8em;
+}
+
+iframe {
+    height: 90%;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 80px 0 20px;
+}
+
+footer div {
+    width: 100%;
+}
+
+#kontakte h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* formular*/
+
+input[type=text],
+select {
+    width: 70%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #4F4442;
+    color: white;
+    margin: 8px 0;
+    cursor: pointer;
+    padding: 10px;
+}
