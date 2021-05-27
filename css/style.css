@@ -645,7 +645,7 @@ h1 {
     cursor: pointer;
 }
 
-/* hej */
+/* Hold main */
 
 .holdet h1,
 h4 {
@@ -654,7 +654,7 @@ h4 {
 }
 
 .holdet {
-    margin: 0 0 125px;
+    margin: 50px 0 125px;
 }
 
 .flex {
